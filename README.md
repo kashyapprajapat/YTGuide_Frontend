@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 YTGuide
 
-## Getting Started
+**Helping self-learners make smarter YouTube choices**
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ What is YTGuide?
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**YTGuide** is an AI-powered SaaS platform that helps **self-learners evaluate and choose** the best YouTube course for any topic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Users paste 2 or more YouTube links (videos or playlists), and YTGuide compares them using:
 
-## Learn More
+- ✅ Content analysis
+- ✅ Relevance to goal
+- ✅ Recency & clarity
+- ✅ Overall learning value
 
-To learn more about Next.js, take a look at the following resources:
+It then **ranks and recommends** the best course to start with — saving learners hours of research.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Purpose
 
-## Deploy on Vercel
+YTGuide is designed to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ❌ Eliminate low-quality or outdated tutorials  
+- ✅ Provide **clear AI-backed reasoning** for rankings  
+- 🧠 Act as your **personal course advisor** for YouTube  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙌 Acknowledgements
+Developed with ❤️ by Kashyap ☕🧋👨🏻‍💻
