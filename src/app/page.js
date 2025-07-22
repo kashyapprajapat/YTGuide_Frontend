@@ -7,7 +7,6 @@ export default function Home() {
  <Header></Header>
 
   <main className="w-full px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
-    <Button>Comming Soon</Button>
   </main>
 
   <footer className="text-center text-gray-500 text-sm py-4">
