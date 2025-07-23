@@ -30,5 +30,16 @@ YTGuide is designed to:
 
 ---
 
+## Under Development section
+
+<p align="center">
+  <img src="./DemoImage/Homepage.png" width="250"/>
+  <img src="./DemoImage/Benifits.png" width="250"/>
+  <img src="./DemoImage/mainpart.png" width="250"/>
+</p>
+
+
+---
+
 ## 🙌 Acknowledgements
 Developed with ❤️ by Kashyap ☕🧋👨🏻‍💻
