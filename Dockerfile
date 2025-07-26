@@ -1,12 +1,13 @@
 FROM node:20-alpine AS base
 
-
+# Install dependencies only when needed
 FROM base AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
+# Install ALL dependencies (including devDependencies needed for build)
 COPY package.json package-lock.json ./
-RUN npm ci --only=production
+RUN npm ci
 
 # Rebuild the source code only when needed
 FROM base AS builder
@@ -28,6 +29,10 @@ ENV NEXT_TELEMETRY_DISABLED 1
 # Create nextjs user
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
+
+# Install only production dependencies for runtime
+COPY package.json package-lock.json ./
+RUN npm ci --only=production && npm cache clean --force
 
 # Copy necessary files
 COPY --from=builder /app/public ./public
